@@ -39,7 +39,7 @@ Les patients peuvent également se connecter sur un compte personnel afin de voi
 <a id="technologie" class="anchor" href="#technologie" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Technologie</h3>
 
 <p>J'ai fais la migration du site Web, initialement développé en PHP procédural, vers le framework CodeIgniter utilisant le paradigme MVC. Pour le design, j'ai utilisé le framework Bootstrap.
-La base de donnée est gérée sous mySQL5.5.
+La base de donnée est gérée sous mySQL 5.5.
 J'ai également utilisé du Javascript, notamment Ajax.</p>
 
 <hr>
@@ -51,12 +51,20 @@ J'ai également utilisé du Javascript, notamment Ajax.</p>
 <li>Télécharger le dossier.</li>
 <li>Extraire l'archive dans votre serveur local.</li>
 <li>Créer et importer la base de données. Fichier DentalProject.sql</li>
-<li>Modifier le fichier config.php situé dans applications&gt;config :
-ligne 20 : $config['base_url'] = 'http://your-url/DentalProject/';</li>
-<li>Modifier le fichier database.php situé dans application&gt;config :
-ligne 68 :  'username' =&gt; '',
-ligne 69 :  'password' =&gt; '',
-ligne 70 :  'database' =&gt; '',</li>
+<li>
+<p>Modifier le fichier config.php situé dans application&gt;config pour y mettre votre adresse locale:</p>
+
+<p><code>ligne 20 : $config['base_url'] = 'http://your-url/DentalProject/';</code></p>
+</li>
+<li>
+<p>Modifier le fichier database.php situé dans application&gt;config en y ajoutant les informations de votre base de données :</p>
+
+<p><code>ligne 68 : 'username' =&gt; '',</code></p>
+
+<p><code>ligne 69 : 'password' =&gt; '',</code></p>
+
+<p><code>ligne 70 : 'database' =&gt; '',</code></p>
+</li>
 </ol>
 
 <hr>
