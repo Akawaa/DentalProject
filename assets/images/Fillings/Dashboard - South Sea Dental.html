@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dashboard - South Sea Dental</title>
+    <link rel="icon" type="image/png" href="http://localhost:8888/DentalProject/assets/images/icone.png">
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="http://localhost:8888/DentalProject/assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- MetisMenu CSS -->
+    <link href="http://localhost:8888/DentalProject/assets/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- DataTables CSS -->
+    <link href="http://localhost:8888/DentalProject/assets/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet">
+
+    <!-- DataTables Responsive CSS -->
+    <link href="http://localhost:8888/DentalProject/assets/datatables-responsive/css/dataTables.responsive.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="http://localhost:8888/DentalProject/assets/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="./Dashboard - South Sea Dental_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="./Dashboard - South Sea Dental_files/clock.js"></script>
+    <script type="text/javascript" src="./Dashboard - South Sea Dental_files/script.js"></script>
+
+<style type="text/css"></style></head>
+
+<body onload="clock(&#39;hour&#39;, &#39;1429005999&#39;, &#39;1&#39;);day(&#39;day&#39;,&#39;1429005999&#39;,&#39;1&#39;)">
+<div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://localhost:8888/DentalProject/index.php/Doctor_c/index.html">South Sea Dental</a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+
+                <!-- /.dropdown profile-->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">
+                        <i class="fa fa-user-md fa-fw"></i> Dr Hakim  BRAHIMI <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#"><i class="fa fa-user-md fa-fw"></i> Profile</a>
+                        </li>
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Users_c/deconnection"><i class="fa fa-sign-out fa-fw"></i> Log Out</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li>
+                            <a href="http://localhost:8888/DentalProject/index.php/Doctor_c/index"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:8888/DentalProject/index.php/Doctor_c/appointment"><i class="fa fa-calendar fa-fw"></i> Appointments</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:8888/DentalProject/index.php/Doctor_c/patientAdmin"><i class="fa fa-database fa-fw"></i> Patients</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:8888/DentalProject/index.php/Doctor_c/invoiceDoctor"><i class="fa fa-fw fa-money"></i> Invoices</a>
+                        </li>
+                        <li>
+                            <a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#"><i class="fa fa-picture-o fa-fw"></i> Gallery<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level collapse">
+                                <li>
+                                    <a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">All</a>
+                                </li>
+                                <li>
+                                    <a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">Awaiting Validation </a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li class="active">
+                            <a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#"><i class="fa fa-book fa-fw"></i> Documentations<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level collapse in">
+                                <li>
+                                    <a href="./Dashboard - South Sea Dental_files/Dashboard - South Sea Dental.html" class="active">Fillings</a>
+                                </li>
+                                <li>
+                                    <a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationCrown">Crowns</a>
+                                </li>
+                                <li>
+                                    <a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationBrace">Braces</a>
+                                </li>
+                            </ul>
+                            <!-- /.nav-second-level -->
+                        </li>
+                        <li>
+                            <a href="http://localhost:8888/DentalProject/index.php/Doctor_c/settingDoctor"><i class="fa fa-fw fa-wrench"></i> Settings</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav><div id="page-wrapper" style="min-height: 296px;">
+
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+
+        <!-- .row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Fillings
+                </h1>
+
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- .row -->
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <i class="fa fa-clock-o fa-5x"></i>
+                            </div>
+                            <div class="col-xs-9 text-right">
+                                                                <div class="huge hour" id="hour"><fieldset><div id="divHour">11:08:38</div></fieldset></div>
+                                <div class="day" id="day"><fieldset><div id="divDay">Tuesday 14 April 2015</div></fieldset></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-8">
+                <div class="pull-right">
+                    <ol class="breadcrumb" style="
+    /* background-attachment: fixed; */
+">
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">Amalgam</a></li>
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">Composite Resin</a></li>
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">Cast Gold</a></li>
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">Gold Foil</a></li>
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">Ceramic</a></li>
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">Glass Ionomer</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="col-lg-12">
+            <h2 class="page-header">Amalgam   <div class="pull-right">
+                    <ol class="breadcrumb">
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">Amalgam</a></li>
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">Composite Resin</a></li>
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">Cast Gold</a></li>
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">Gold Foil</a></li>
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">Ceramic</a></li>
+                        <li><a href="http://localhost:8888/DentalProject/index.php/Doctor_c/documentationFilling#">Glass Ionomer</a></li>
+                    </ol>
+                </div></h2>
+            <div class="col-md-3">
+                <img src="./Dashboard - South Sea Dental_files/amalgam.jpg">
+                <br>
+            </div>
+            <div class="col-md-9">
+                <p><strong>Made Of : </strong>A mixture of silver, tin, zinc, copper, and mercury. Mercury is nearly 50% of the mixture.</p>
+                <p><strong>Types : </strong>Traditional (non-bonded), bonded.</p>
+                <p><strong>Used for : </strong>Fillings in back teeth.</p>
+                <p><strong>Lasts : </strong>At least seven years, usually longer.</p>
+                <p><strong>Costs : </strong>The least expensive type of restorative materia.</p>
+            </div>
+            <div class="col-md-12">
+                <p><strong>Advantages : </strong>
+                    </p><ul>
+                        <li>Amalgam fillings are strong and can withstand the forces of chewing.</li>
+                        <li>They are relatively inexpensive, compared with alternatives.</li>
+                        <li>An amalgam filling can be completed in one dental visit.</li>
+                    </ul>
+                <p></p>
+                <p><strong>Disadvantages : </strong>
+                    </p><ul>
+                        <li>Amalgam doesn't match the color of your teeth.</li>
+                        <li>Healthy parts of your tooth often must be removed to make a space large enough to hold an amalgam filling.</li>
+                        <li>Amalgam fillings can corrode or tarnish over time, causing discoloration where the filling meets the tooth.</li>
+                        <li>A traditional (non-bonded) amalgam filling does not bond (stick) to your tooth. The cavity preparation (the "pocket" in your tooth)
+                            developed by your dentist requires undercuts or ledges to provide retention of the filling. Your dentist may have to remove additional
+                            tooth structure to establish good retention for the filling.</li>
+                        <li>Some people may be allergic to mercury or be concerned about its effects, although research shows the amount of mercury exposure from
+                            fillings is similar to what people get from other sources in the environment.</li>
+                    </ul>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+            <h2 class="page-header">Composite Resin</h2>
+            <div class="col-md-3">
+                <img src="./Dashboard - South Sea Dental_files/composite-resin.jpg">
+                <br>
+             </div>
+            <div class="col-md-9">
+                <p><strong>Made Of : </strong>A mixture of plastic and fine glass particles.</p>
+                <p><strong>Types : </strong>Direct and indirect. Direct fillings are placed by your dentist
+                    using a bright blue light that hardens the soft material. For indirect fillings, your dentist
+                    prepares the tooth, takes an impression and a laboratory makes the filling. During a second visit,
+                    your dentist cements this filling into place.</p>
+                <p><strong>Used for : </strong>Small and large fillings, especially in front teeth or the visible parts of teeth; also for inlays.</p>
+                <p><strong>Lasts : </strong>At least five years.</p>
+                <p><strong>Costs : </strong> More than amalgam, but less than gold.</p>
+            </div>
+            <div class="col-md-12">
+                <p><strong>Advantages : </strong>
+                </p><ul>
+                    <li>Your fillings or inlay will match the color of your teeth.</li>
+                    <li>A filling can be completed in one dental visit. An inlay may require two visits.</li>
+                    <li>Composite fillings can bond directly to the tooth, making the tooth stronger than it would be with an amalgam filling.</li>
+                    <li>Less drilling is involved than with amalgam fillings because your dentist does not have to shape the space as much to hold the
+                        filling securely. The bonding process holds the composite resin in the tooth.</li>
+                    <li>Indirect composite fillings and inlays are heat-cured, increasing their strength.</li>
+                    <li>Composite resin can be used in combination with other materials, such as glass ionomer, to provide the benefits of both materials.</li>
+                </ul>
+                <p></p>
+                <p><strong>Disadvantages : </strong>
+                </p><ul>
+                    <li>Although composite resins have become stronger and more resistant to wear, it's not clear whether they are
+                        strong enough to last as long as amalgam fillings under the pressure of chewing</li>
+                    <li>The composite may shrink when placed; this can lead to more cavities in the future in areas where the filling is
+                        not making good contact with your tooth. The shrinkage is reduced when your dentist places this type of filling in thin layers.</li>
+                    <li>These fillings take more time to place because they are usually placed in layers. The increased time and labor involved also contribute
+                        to the higher cost (compared with amalgam fillings).</li>
+                    <li>Indirect fillings and inlays take at least two visits to complete. Your dentist takes impressions at the first visit and places the
+                        filling or inlay at the second visit.</li>
+                    <li>In large cavities, composites may not last as long as amalgam fillings.</li>
+                </ul>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+            <h2 class="page-header">Cast Gold</h2>
+            <div class="col-md-3">
+                <img src="./Dashboard - South Sea Dental_files/cast-gold.jpg">
+                <br>
+            </div>
+            <div class="col-md-9">
+                <p><strong>Made Of : </strong>Gold alloy (gold mixed with other metals).</p>
+                <p><strong>Used for : </strong>Inlays and onlays, crowns.</p>
+                <p><strong>Lasts : </strong>At least seven years, usually longer</p>
+                <p><strong>Costs : </strong> More than most other materials; six to ten times more expensive than amalgam.</p>
+            </div>
+            <div class="col-md-12">
+                <p><strong>Advantages : </strong>
+                </p><ul>
+                    <li>Gold doesn't corrode.</li>
+                    <li>Some people like the gold color better than the silver color of amalgam.</li>
+                    <li>Gold fillings are durable enough to withstand chewing forces.</li>
+                </ul>
+                <p></p>
+                <p><strong>Disadvantages : </strong>
+                </p><ul>
+                    <li>You must visit the dentist at least twice to receive a gold filling. At the first visit, the dentist
+                        makes an impression of your tooth and a temporary filling is placed. The gold filling is made from the
+                        impression and is placed at a second visit.</li>
+                    <li>The cost is high because of the high cost of gold and the work involved.</li>
+                    <li>If gold and amalgam fillings are right next to each other in your mouth, an electric current can result
+                        from interactions between the metals and your saliva, resulting in discomfort. This is called "galvanic shock."
+                    </li>
+                </ul>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+            <h2 class="page-header">Gold Foil</h2>
+            <div class="col-md-3">
+                <img src="./Dashboard - South Sea Dental_files/cast-gold.jpg">
+                <br>
+            </div>
+            <div class="col-md-9">
+                <p><strong>Made Of : </strong>Gold.</p>
+                <p><strong>Used for : </strong>Small fillings in areas where you don’t chew hard; repairing crowns.</p>
+                <p><strong>Lasts : </strong>Approximately 10 to 15 years</p>
+                <p><strong>Costs : </strong> Up to four times as much as amalgam</p>
+            </div>
+            <div class="col-md-12">
+                <p><strong>Advantages : </strong>
+                </p><ul>
+                    <li>Gold foil can last a long time.</li>
+                </ul>
+                <p></p>
+                <p><strong>Disadvantages : </strong>
+                </p><ul>
+                    <li>Gold foil restorations require great skill and attention to detail by the dentist. Improper placement
+                        of gold foil can damage the pulp or periodontal (gum) tissues.</li>
+                    <li>Gold foil costs more than amalgam and composite fillings.</li>
+                    <li>It may be difficult to find a dentist who offers gold foil as an option because it is being replaced
+                        by other materials that match the color of your teeth.
+                    </li>
+                </ul><p></p>
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+            <h2 class="page-header">Ceramic</h2>
+            <div class="col-md-3">
+                <img src="./Dashboard - South Sea Dental_files/cast-gold.jpg">
+                <br>
+            </div>
+            <div class="col-md-9">
+                <p><strong>Made Of : </strong>Porcelain, most commonly.</p>
+                <p><strong>Used for : </strong>Inlays and onlays, crowns.</p>
+                <p><strong>Lasts : </strong>Five to seven years.</p>
+                <p><strong>Costs : </strong>Can cost as little as composite or as much or more than gold, depending on the filling.</p>
+            </div>
+            <div class="col-md-12">
+                <p><strong>Advantages : </strong>
+                </p><ul>
+                    <li>Ceramics are tooth-colored.</li>
+                    <li>Ceramics are more resistant to staining and abrasion than composite resin.</li>
+                </ul>
+                <p></p>
+                <p><strong>Disadvantages : </strong>
+                </p><ul>
+                    <li>Ceramics are more brittle than composite resin.</li>
+                    <li>A ceramic inlay or onlay needs to be large enough to prevent it from breaking, so the tooth must
+                        be reduced in size to make room for the extra bulk.</li>
+
+                </ul><p></p>
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+            <h2 class="page-header">Glass Ionomer</h2>
+            <div class="col-md-3">
+                <img src="./Dashboard - South Sea Dental_files/cast-gold.jpg">
+                <br>
+            </div>
+            <div class="col-md-9">
+                <p><strong>Made Of : </strong>Acrylic and a component of glass called fluoroaluminosilicate.</p>
+                <p><strong>Used for : </strong>Most commonly used as cementation for inlay fillings, but glass ionomer
+                    also is used for fillings in front teeth or to fill areas around the necks of your teeth or on roots.
+                    As filling material, glass ionomer is typically used in people with a lot of decay in the part of the
+                    tooth that extends below the gum (root caries). It is also used for filling baby teeth and as a liner
+                    for other types of fillings.</p>
+                <p><strong>Lasts : </strong>Five years or more.</p>
+                <p><strong>Costs : </strong>Comparable to composite resin.</p>
+            </div>
+            <div class="col-md-12">
+                <p><strong>Advantages : </strong>
+                </p><ul>
+                    <li>Glass ionomer matches the color of the teeth, although it does not always match as well as
+                        composite resin. Resin-modified glass ionomer is usually a better match than traditional glass
+                        ionomer.</li>
+                    <li>In some cases, no drilling is needed to place a glass ionomer filling. This makes this type of
+                        filling useful for small children.</li>
+                    <li>Glass ionomers release fluoride, which can help protect the tooth from further decay.</li>
+                    <li>Glass ionomer restorations bond (stick) to the tooth, which helps to prevent leakage around the
+                        filling and further decay.</li>
+                </ul>
+                <p></p>
+                <p><strong>Disadvantages : </strong>
+                </p><ul>
+                    <li>Traditional glass ionomer is significantly weaker than composite resin. It is much more likely
+                        to wear or fracture.</li>
+                    <li>Traditional glass ionomer does not match your tooth color as precisely as composite resin.</li>
+                    <li>If you are getting a resin-modified glass ionomer filling, each thin layer needs to be cured,
+                        or hardened, with a special bright blue light before the next layer can be added. This makes
+                        the tooth stronger, but can lengthen the time of the dental appointment.</li>
+
+                </ul><p></p>
+            </div>
+        </div><!-- jQuery -->
+<script src="./Dashboard - South Sea Dental_files/jquery.min.js"></script>
+
+
+
+<!-- Bootstrap Core JavaScript -->
+<script src="./Dashboard - South Sea Dental_files/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="./Dashboard - South Sea Dental_files/metisMenu.min.js"></script>
+
+<!-- DataTables JavaScript -->
+<script src="./Dashboard - South Sea Dental_files/jquery.dataTables.min.js"></script>
+<script src="./Dashboard - South Sea Dental_files/dataTables.bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="./Dashboard - South Sea Dental_files/sb-admin-2.js"></script>
+
+
+<script>
+    $(document).ready(function() {
+        $('#dataTables-patients').DataTable({
+            responsive: true
+        });
+    });
+
+    $(document).ready(function() {
+        $('#dataTables-appointment').DataTable({
+            responsive: true
+        });
+    });
+
+    $(document).ready(function() {
+        $('#dataTables-radio').DataTable({
+            responsive: true
+        });
+    });
+
+    // popover demo
+    $("[data-toggle=popover]")
+        .popover()
+</script>
+
+
+
+
+</div></div></div></body></html>
